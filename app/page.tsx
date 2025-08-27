@@ -45,7 +45,7 @@ export default function Home() {
                         </div>
                     </Link>
 
-                    <Link href="/crinstallment" className="card block p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-transform duration-300 ease-in-out">
+                    <Link href="/carinstallment" className="card block p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-transform duration-300 ease-in-out">
                         <div className="flex flex-col items-center">
                             <div className="bg-white-100 rounded-full p-4 mb-4">
                               <Image src={car} alt='bmi' width={150} height={150} className='mx-auto'/>
