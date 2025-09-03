@@ -10,14 +10,14 @@ export default function Page() {
     const [price, setPrice] = useState('');
     const [interest, setInterest] = useState('');
     const [downpayment, setDownpayment] = useState('15%');
-    const [months, setMonths] = useState('');
+    const [months, setMonths] = useState('12');
     const [installmentResult, setInstallmentResult] = useState('0.00');
 
     const handleClickReset = () => {
         setName('');
         setPrice('');
         setInterest('');
-        setMonths('');
+        setMonths('12');
         setDownpayment('15%');
         setInstallmentResult('0.00');
     }
@@ -142,7 +142,7 @@ export default function Page() {
                             id="months"
                             className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-300"
                         >
-                            <option value="">เลือกจำนวนเดือน</option>
+                            <option value="12">12 เดือน</option>
                             <option value="24">24 เดือน</option>
                             <option value="36">36 เดือน</option>
                             <option value="48">48 เดือน</option>
